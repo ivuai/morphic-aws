@@ -8,7 +8,6 @@ frontend:
         - pnpm install # Install project dependencies
     build:
       commands:
-        - env >> .env
         - pnpm run build # Build your project
   artifacts:
     baseDirectory: .next # Update this to the correct build output directory for Next.js
